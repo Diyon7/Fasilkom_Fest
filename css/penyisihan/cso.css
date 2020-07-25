@@ -1,0 +1,94 @@
+@import ('../bootstrap.min.css');
+
+#countdown-cso{
+  display: none;
+}
+
+.penyisihan-content, .card-soal{
+  display: none;
+}
+
+.penyisihan-content.active, .card-soal.active{
+  display: block !important;
+}
+
+#daftarJawaban .card-content{
+  margin: 0px;
+}
+
+#daftarJawaban .number{
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#daftarJawaban .number.active{
+  background: var(--rico-theme) !important;
+  color: white !important;
+}
+
+#ketentuan.card{
+  padding: 20px 0px;
+}
+
+#ketentuan .title{
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#ketentuan .card-content.ketentuan-content{
+  padding-top: 0;
+  margin: 0px 30px;
+}
+
+#soal .layout{
+  margin: 0 30px;
+}
+
+.nomor-content{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.nomor-content span{
+  border-radius: 50px;
+  min-width: 50px;
+  padding: 0 5px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.soal-content{
+  font-size: 18px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+.jawaban-content label span{
+  font-size: 18px !important;
+}
+
+@media screen and (max-width: 992px){
+  #soal .layout{
+    margin: 0 20px;
+  }
+  #ketentuan .card-content.ketentuan-content{
+    padding-top: 0;
+    margin: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #soal .layout{
+    margin: 0 10px;
+  }
+  #ketentuan .card-content.ketentuan-content{
+    padding-top: 0;
+    margin: 0px 10px;
+  }
+}

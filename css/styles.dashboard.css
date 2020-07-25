@@ -1,0 +1,202 @@
+body{
+  font-family: "Roboto", sans-serif !important;
+}
+
+.dashboard-content{
+  display: none;
+  margin: 20px 0px;
+}
+
+.dashboard-content.active{
+  display: block;
+}
+
+.btn-floating.sidenav-trigger{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px !important;
+  display: none;
+}
+
+.dashboard-left-menu{
+  position: fixed;
+  height: 100vh;
+}
+
+.dashboard-left-menu a.btn{
+  margin: 8px 0;
+  padding: 5px 20px;
+  height: auto !important;
+  text-align: left;
+  width: 60%;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.dashboard-left-menu a.btn .fa{
+  width: 12%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dashboard-right-content.fwc{
+  min-height: 100vh !important;
+  background: url("../img/doodle/doodle5.png");
+}
+
+.dashboard-right-content.cso{
+  min-height: 100vh !important;
+  background: url("../img/doodle/doodle5.png");
+}
+
+.dashboard-hi{
+  color: white;
+  width: 100%;
+}
+
+.dashboard-hi .logo{
+  width: 55%;
+  margin: 50px 0px 70px 0px;
+  cursor: pointer;
+}
+
+.dashboard-hi .primary{
+  font-family: "Niconne" !important;
+  font-size: 74px;
+}
+
+.dashboard-hi .secondary{
+  font-family: "Roboto" !important;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.card.secondary{
+  margin: 35px 0px 10px 0px !important;
+  text-align: justify;
+}
+
+.card.secondary .card-content{
+  padding: 10px 5px !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+@media screen and (max-width: 992px){
+  .btn-floating.sidenav-trigger{
+    display: block;
+  }
+  .dashboard-left-menu{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .dashboard-left-menu a.btn{
+    width: 75%;
+  }
+}
+
+/* Content style */
+.content-title{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#akun-gantiPass .card .card-content{
+  margin: 0px 15px;
+}
+
+#data-pembayaran .card .card-content, #data-pembayaran-lengkap .card .card-content{
+  margin: 0px 15px;
+}
+
+#data-pembayaran h5.content-title{
+  font-size: 20px !important;
+}
+
+#data-anggota .card .card-content, #data-anggota-view .card .card-content, #data-anggota-lengkap .card .card-content{
+  margin: 0px 15px;
+}
+
+#data-anggota .card.secondary{
+  margin: 0px 0px 30px 0px !important;
+  text-align: justify;
+}
+
+#inner-anggota .gender-anggota{
+  margin: 0px !important;
+  padding-bottom: 20px;
+}
+
+#inner-anggota .title{
+  font-size: 20px !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#inner-anggota .divider{
+  margin: 10px 0px !important;
+  height: 2px;
+  width: 30%;
+}
+
+#inner-anggota .gender-anggota .title{
+  font-size: 16px !important;
+}
+
+#inner-anggota .gender-anggota p{
+  font-family: "Roboto", sans-serif !important
+}
+
+#data-anggota-view th{
+  width: 25% !important;
+}
+
+#info-tim .card .card-content, #data-anggota-view .card .card-content{
+  margin: 0px 15px;
+}
+
+#info-tim th{
+  width: 25% !important;
+}
+
+#status-tim .card.secondary:first-child{
+  margin: 35px 0px 0px 0px !important
+}
+
+#status-tim .card.secondary{
+  margin: 20px 0px 0px 0px !important
+}
+
+#info-lomba .card .card-content{
+  margin: 0px 15px;
+}
+
+#penyisihan-cso .card .card-content, #penyisihan-cso-lengkap .card .card-content{
+  margin: 0px 15px;
+}
+
+#penyisihan-cso .card.secondary, #penyisihan-cso-lengkap .card.secondary{
+  margin: 0px 0px 30px 0px !important;
+  text-align: justify;
+}
+
+#penyisihan-cso .card .card-content, #penyisihan-cso-lengkap .card .card-content{
+  margin: 0px 15px;
+}
+
+#penyisihan-tahap1 .card .card-content, #penyisihan-tahap2 .card .card-content, #penyisihan-tahap1-lengkap .card .card-content, #penyisihan-tahap2-lengkap .card .card-content{
+  margin: 0px 15px;
+}
+
+#penyisihan-tahap1 .card.secondary, #penyisihan-tahap2 .card.secondary, #penyisihan-tahap1-lengkap .card.secondary, #penyisihan-tahap2-lengkap .card.secondary{
+  margin: 0px 0px 30px 0px !important;
+  text-align: justify;
+}
+
+#penyisihan-tahap1 .title, #penyisihan-tahap2 .title, #penyisihan-tahap1-lengkap .title, #penyisihan-tahap2-lengkap .title{
+  font-size: 20px !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#start-penyisihan-cso, #start-penyisihan-cso-countdown{
+  display: none;
+}
